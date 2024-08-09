@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Anime</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: url('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAzL3Jhd3BpeGVsX29mZmljZV81M19hX21pbmltYWxfYW5kX2xlc3NfZGV0YWlsX2lsbHVzdHJhdGlvbl9vZl9jaF8xN2NmMTIxNy1kNDM0LTRjYTYtYjIxYy04ZmQyMjQxMjlkN2EuanBn.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .card {
+            margin: 15px;
+            border: none;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+        .hero {
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 4rem;
+        }
+        .hero p {
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Anime Fan Page</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio <span class="sr-only">(actual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Series</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Películas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Bienvenido al Mundo del Anime</h1>
+        <p>Descubre tus series y películas favoritas</p>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.lifestyleasia.com/wp-content/uploads/sites/6/2023/11/21143451/best-romantic-anime-series-my-dress-up-darling.png?tr=w-1200,h-900" class="card-img-top" alt="Anime 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Sono Bisque Doll wa Koi wo Suru</h5>
+                        <p class="card-text">La historia gira en torno a los estudiantes Wakana Gojō, quien aspira a fabricar muñecas Hina, y Marin Kitagawa, una otaku a quien Wakana confecciona disfraces.</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_680/v1626951891/blog/adiommpkjoyhqvu2s7yu.jpg" class="card-img-top" alt="Anime 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Jujutsu Kaisen</h5>
+                        <p class="card-text">Una serie de acción y fantasía con emocionantes batallas contra espíritus malignos.</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://ramenparados.com/wp-content/uploads/2020/10/Demon-Slayer-Kimetsu-no-Yaiba-1000x600.jpg" class="card-img-top" alt="Anime 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Kimetsu no yaiba</h5>
+                        <p class="card-text">Tanjiro y sus compañeros se unen al Pilar de las Llamas Kyojuro Rengoku para hacer frente al demonio a bordo del Tren del Infinito rumbo a la desesperación.</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
